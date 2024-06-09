@@ -1,0 +1,12 @@
+/home/ninog/RiderProjects/TenisKlub/Domain/bin/Debug/net6.0/Domain.deps.json
+/home/ninog/RiderProjects/TenisKlub/Domain/bin/Debug/net6.0/Domain.dll
+/home/ninog/RiderProjects/TenisKlub/Domain/bin/Debug/net6.0/ref/Domain.dll
+/home/ninog/RiderProjects/TenisKlub/Domain/bin/Debug/net6.0/Domain.pdb
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.dll
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/ref/Domain.dll
+/home/ninog/RiderProjects/TenisKlub/Domain/obj/Debug/net6.0/Domain.pdb

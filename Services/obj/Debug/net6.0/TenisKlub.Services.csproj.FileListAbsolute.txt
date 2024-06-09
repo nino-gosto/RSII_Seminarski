@@ -1,0 +1,15 @@
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/bin/Debug/net6.0/TenisKlub.Services.deps.json
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/bin/Debug/net6.0/TenisKlub.Services.dll
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/bin/Debug/net6.0/ref/TenisKlub.Services.dll
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/bin/Debug/net6.0/TenisKlub.Services.pdb
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/bin/Debug/net6.0/Models.dll
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/bin/Debug/net6.0/Models.pdb
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.csproj.AssemblyReference.cache
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.AssemblyInfoInputs.cache
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.AssemblyInfo.cs
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.csproj.CoreCompileInputs.cache
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.csproj.CopyComplete
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.dll
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/ref/TenisKlub.Services.dll
+/home/ninog/RiderProjects/TenisKlub/TenisKlub.Services/obj/Debug/net6.0/TenisKlub.Services.pdb

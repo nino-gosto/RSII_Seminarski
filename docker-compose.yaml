@@ -1,0 +1,58 @@
+version: '3'
+services:
+  rabbitMQ:
+    image: rabbitmq:3-management
+    container_name: 'rabbitmq_container'
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    ports:
+      - 8050:15672
+      - 5672:5672
+    expose:
+      - 5672
+    networks:
+      - tenisklub
+
+  tenisklub_sql:
+    container_name: tenisklub_container
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    restart: unless-stopped
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=NinoGosto123.
+      - MSSQL_PID=Developer
+    ports:
+      - 1405:1433
+    expose:
+      - 1433
+    networks:
+      - tenisklub
+
+  tenisklub_api:
+    restart: unless-stopped
+    build:
+      context: ../TenisKlub
+    environment:
+      - ConnectionStrings:Main=Server=tenisklub_sql, 1433;Database=200098;User=SA;Password=NinoGosto123.?;ConnectRetryCount=0; TrustServerCertificate=True
+      - ASPNETCORE_ENVIRONMENT=Development
+      - RABBITMQ_HOST=rabbitMQ
+      - RABBITMQ_USERNAME=guest
+      - RABBITMQ_PASSWORD=guest
+      - RABBITMQ_VIRTUALHOST=/
+    ports:
+      - 7126:7126
+    networks:
+      - tenisklub
+    volumes:
+      - ../TenisKlub/TenisKlub/ImageBase64Files:/app/ImageBase64Files
+    links:
+      - tenisklub_sql
+    depends_on:
+      - tenisklub_sql
+      - rabbitMQ
+
+networks:
+  tenisklub:
+    driver: bridge
+    

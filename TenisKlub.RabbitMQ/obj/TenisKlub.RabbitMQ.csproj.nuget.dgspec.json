@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ninog/RiderProjects/TenisKlub/TenisKlub.RabbitMQ/TenisKlub.RabbitMQ.csproj": {}
+  },
+  "projects": {
+    "/home/ninog/RiderProjects/TenisKlub/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ninog/RiderProjects/TenisKlub/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/home/ninog/RiderProjects/TenisKlub/Models/Models.csproj",
+        "packagesPath": "/home/ninog/.nuget/packages/",
+        "outputPath": "/home/ninog/RiderProjects/TenisKlub/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ninog/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ninog/RiderProjects/TenisKlub/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ninog/RiderProjects/TenisKlub/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/home/ninog/RiderProjects/TenisKlub/Services/Services.csproj",
+        "packagesPath": "/home/ninog/.nuget/packages/",
+        "outputPath": "/home/ninog/RiderProjects/TenisKlub/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ninog/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ninog/RiderProjects/TenisKlub/Models/Models.csproj": {
+                "projectPath": "/home/ninog/RiderProjects/TenisKlub/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[9.0.0-preview.4.24267.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[4.0.0-preview.24271.1, )"
+            },
+            "Microsoft.ML.Recommender": {
+              "target": "Package",
+              "version": "[0.22.0-preview.24271.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ninog/RiderProjects/TenisKlub/TenisKlub.RabbitMQ/TenisKlub.RabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ninog/RiderProjects/TenisKlub/TenisKlub.RabbitMQ/TenisKlub.RabbitMQ.csproj",
+        "projectName": "TenisKlub.RabbitMQ",
+        "projectPath": "/home/ninog/RiderProjects/TenisKlub/TenisKlub.RabbitMQ/TenisKlub.RabbitMQ.csproj",
+        "packagesPath": "/home/ninog/.nuget/packages/",
+        "outputPath": "/home/ninog/RiderProjects/TenisKlub/TenisKlub.RabbitMQ/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ninog/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ninog/RiderProjects/TenisKlub/Services/Services.csproj": {
+                "projectPath": "/home/ninog/RiderProjects/TenisKlub/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
